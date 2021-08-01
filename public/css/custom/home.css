@@ -1,0 +1,1378 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    /*background-image: url('../../img/icon/content-background.png');*/
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+.carousel{
+    height: 100%;
+}
+
+.edit-carousel{
+    height: 100%;
+}
+
+.edit-carousel .item{
+    height: 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-color: gray;
+}
+
+.edit-carousel-indexBottom{
+    height: 100%;
+}
+
+.edit-carousel-indexBottom .item{
+    height: 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.indicators-edit{
+    bottom: 130px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+    margin-right: 5px;
+    background-color: #b7b7b7;
+    border: none;
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    margin-right: 5px;
+    background-color: white;
+}
+
+
+
+
+.boxOut-referralCode{
+    //background-color: #0794D1;
+    bottom: 0; 
+    position: absolute;
+    //border-top: 3px solid white;
+}
+
+.boxOut-referralCode > .container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.boxOut-referralCode-container{
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box-referralCode{
+    background-repeat: no-repeat;
+    background-size: 146px 120px;
+    background-position: right;
+    //background-image: url('../../img/icon/referral-background.png');
+    background-position: right 20px bottom;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+
+    color: #4abded;
+}
+
+
+#Container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#Container video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+
+#Container div {
+    position: relative;
+    z-index: 1;
+}
+
+.boxOut-homeContent{
+    height: 100%; 
+    background-color: rgba(30, 24, 24, 0.2);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+
+
+
+.button-tentang{
+    width: 280px;
+    height: 50px;
+    margin: 0px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    //border-radius: 4px;
+    padding: 0px;
+    text-align: center;
+    float: none;
+    border: 2px solid white;
+    position: relative;
+
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+    //font-weight: bold;
+    transition: all 0.25s linear 0s;
+
+    margin-top: 100px;
+}
+
+.button-tentang:hover, .button-tentang:focus{
+    border: 2px solid #f7c600;
+    color: #f7c600;
+    transition: all 0.25s linear 0s;
+}
+
+
+
+
+.edit-nav-header {
+    padding-left: 0px;
+}
+
+.boxOut-karateLogo{
+    padding-top: 10%;
+}
+
+.boxOut-karateLogo img{
+    width: 8%;
+}
+
+.text-parallax{
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+
+
+.scrollDownSlider-edit{
+    position: absolute;
+    left: 50%;
+    width: 60%;
+    margin-left: -30%;
+    bottom: 120px;
+}
+
+.scrollDownSlider {
+    background: url(../../img/icon/scroll-1.png) center center no-repeat;
+    background-size: cover;
+    width: 100px;
+    z-index: 9;
+    height: 100px;
+    float: none;
+    margin-bottom: 20px;
+    bottom: 100px;
+
+    /*    -webkit-animation: fadebottom 3s linear infinite;
+        -moz-animation:    fadebottom 3s linear infinite;
+        -o-animation:      fadebottom 3s linear infinite;
+        -ms-transition:    fadebottom 3s linear infinite;
+        animation:         fadebottom 3s linear infinite;*/
+}
+
+.scrollPageDown {
+    //background: url(../../img/icon/scroll-page.png) center center no-repeat;
+    width: 87px;
+    height: 288px;
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    //top: 30%;
+    display: none;
+
+    /*    -webkit-animation: fadebottom 3s linear infinite;
+        -moz-animation:    fadebottom 3s linear infinite;
+        -o-animation:      fadebottom 3s linear infinite;
+        -ms-transition:    fadebottom 3s linear infinite;
+        animation:         fadebottom 3s linear infinite;*/
+}
+
+/*@keyframes blinker {  
+    50% { opacity: 0; }
+}
+
+@keyframes bounce {
+    70% {
+        transform:translateY(0%);
+        padding-bottom: 7px;
+    }
+    80% {
+        transform:translateY(-15%);
+    }
+    90% {
+        transform:translateY(0%);
+        padding-bottom: 8px;
+    }
+    95% {
+        transform:translateY(-7%);
+    }
+    97% {
+        transform:translateY(0%);
+        padding-bottom: 9px;
+    }
+    99% {
+        transform:translateY(-3%);
+    }
+    100% {
+        transform:translateY(0);
+        padding-bottom: 9px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadebottom {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    25% {
+        opacity: 0;
+        transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    100%, 45% {
+        opacity: 1;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}*/
+
+
+
+
+
+.boxOut-titleContent{
+    font-size: 22px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.border-member{
+    border-top: 5px solid #c7b278;
+    width: 200px;
+    float: none;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    width: 100%;
+    line-height: 1;
+}
+
+/*Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb*/
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}    
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}    
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}    
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}    
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+/*WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.open > .dropdown-menu {
+    animation-name: slidenavAnimation;
+    animation-duration:.2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: slidenavAnimation;
+    -webkit-animation-duration:.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: slidenavAnimation;
+    -moz-animation-duration:.2s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: forwards;
+}
+@keyframes slidenavAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes slidenavAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.boxOut-welcome{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+
+}
+
+.box-welcome{
+    color: white;
+    font-size: 90px;
+}
+
+.operasional{
+    bottom: 0 !important; 
+    position: absolute;
+    height: 140px; 
+    background-color: rgba(80, 80, 80, 0.6);
+    color: white; 
+    font-size: 20px; 
+    //padding-top: 30px;
+    //border-top: 3px solid rgba(255, 255, 255, 0.6);
+    //left: 50%;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    //margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.scroll{
+    bottom: 140px !important; 
+    position: absolute;
+    height: 50px; 
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 15;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+
+.parallax-item{
+    height: inherit;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-inner{
+    height: inherit; 
+    background-color: black;
+}
+
+.boxOut-operasional{
+    padding-top: 30px;
+}
+
+.carousel-edit{
+    height: inherit;
+}
+
+.operasional-left{
+    border-right: 2px solid whitesmoke;
+}
+
+.operasional-right{
+    border-left: 2px solid whitesmoke;
+}
+
+.operasional-HTM{
+    padding-top: 0px; 
+    padding-bottom: 15px; 
+    font-size: 15px;
+}
+
+.operasional-price{
+    padding-top: 0px; 
+    font-size: 18px;
+}
+
+.operasional-time{
+    font-size: 15px; 
+    padding-bottom: 15px; 
+    padding-top: 10px;
+}
+
+.operasional-time-bottom{
+    font-size: 18px; 
+    padding-top: 10px;
+}
+
+.b-HTM{
+    font-weight: bold;
+}
+
+.b-person{
+    font-size: 12px;
+}
+
+
+
+
+.boxOut-kolomSection{
+    padding: 25px;
+}
+
+.box-kolomSection{
+    border-radius: 10px;
+}
+
+
+.boxOut-section{
+    height: 278px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.2s linear 0s;
+}
+
+.boxOut-section:hover{
+    transform: scale(1.04);
+    transition: all 0.2s linear 0s;
+    box-shadow: 0px 0px 5px #333333;
+
+}
+
+.boxOut-section:hover > a > .boxOut-scale{
+    transform: scale(1.15);
+    transition: all 0.2s linear 0s;
+}
+
+/*.boxOut-section:hover > a > .box-section> .box-caption{
+    font-size: 17px;
+    transition: all 0.2s linear 0s;
+}*/
+
+.boxOut-scale{
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.2s linear 0s;
+
+}
+
+.box-section{
+    bottom: 0px;
+    position: absolute; 
+    background-color: rgba(69, 78, 68, 0.7);
+    transition-duration: 0.5s;
+
+}
+
+.box-caption{
+    color: white; 
+    font-size: 16px; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-weight: bold;
+    transition: all 0.2s linear 0s;
+}
+
+.boxOut-gallery{
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    //background: url(../../img/wallpaper/home-white.jpg) center center no-repeat;
+    background-color: white;
+    background-size: cover; 
+}
+
+.title-primary{
+    font-size: 24px;
+    width: 250px; 
+    //padding-bottom: 10px;
+}
+
+
+.border-title{
+    width: 150px; 
+    border-bottom: 5px solid #e88e50; 
+    padding-bottom: 10px;
+}
+
+.primary-text{
+    font-size: 15px; 
+    padding-top: 20px; 
+    padding-bottom: 50px; 
+    line-height: 30px;
+}
+
+.box-testimonies{
+    color: white; 
+    font-size: 26px; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    background-color: #49654e;
+}
+
+.carousel-inner {
+    background-color: transparent;
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.boxOut-picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #F8F7F8;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boxOut-comment{
+    height: 150px;
+    background-color: #F8F7F8;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.box-comment{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+
+}
+
+.primary-comment {
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.triangle-testi {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12.5px 25px 12.5px 0;
+    border-color: transparent #f8f7f8 transparent transparent;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 60px;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    position: relative;
+    top: 50%;
+    font-size: 45px;
+}
+
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+    margin-left: 100px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    margin-right: 100px;
+}
+
+.carousel-control {
+    width: 15%;
+}
+
+
+.box-footerContainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-partner{
+    height: 70px;
+}
+
+.partner-black{
+    max-width: 90px; 
+    max-height: 70px; 
+    bottom: 0; 
+    cursor: pointer;
+    position: static;
+    display: none;
+}
+
+.partner-color{
+    max-width: 90px; 
+    max-height: 70px; 
+    bottom: 0; 
+    cursor: pointer;
+    position: static;
+}
+.box-partner:hover > .partner-black{
+    display: block;
+    transition-duration: 0.5s;
+}
+.box-partner:hover > .partner-color{
+    display: none;
+    transition-duration: 0.5s;
+}
+
+.boxOut-partner{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ourFooter-logo{
+    width: 200px;
+    padding-bottom: 30px;
+}
+
+.ourPartner-text{
+    //color: grey; 
+    font-size: 16px; 
+    padding-bottom: 10px;
+}
+
+.ourPartner-text{
+    font-size: 16px; 
+    padding-bottom: 10px;
+    color: white;
+}
+
+.footer-text{
+    font-size: 15px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.footer-text > a{
+    color: #e88e50;
+    font-weight: bolder;
+    transition-duration:0.5s;
+}
+
+.footer-text > a:hover{
+    color: #505050;
+    transition-duration:0.5s;
+}
+
+.footer-circleUp{
+    height: 94px;
+    width: 94px;
+    border-radius: 100%;
+
+    background-color: #8ba889;
+    //box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    padding-top: 10px;
+    cursor: pointer;
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 50px;
+    visibility: visible;
+    z-index: 2147483639;
+    padding: 10px;
+    transition-duration:0.1s;
+}
+
+.footer-circleUp:hover{
+    background-color: #6a7f68;
+    transition-duration:0.1s;
+}
+
+.footer-circleUp img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxFooter-right{
+    padding-left: 130px;
+    padding-top: 35px;
+}
+
+.box-copyright{
+    background-color: #505050;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+}
+
+.copyright-text{
+    color: white;
+}
+
+.copyright-text2{
+    color: #e88e50;
+}
+
+.boxOut-video{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box-homeVideo{
+    //width: 73%;
+    max-height: 650px;
+    max-width: 1150px;
+    height: 100%;
+    float: none;
+    min-height: 1px;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-homeVideo > .col-md-12{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.box-homeVideo > .col-md-12 > iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-video{
+    padding-top: 30px; 
+    padding-right: 50px; 
+    font-size: 15px; 
+    text-align: justify;
+}
+
+.boxOut-footer{
+    background-color: #7d6c4f;
+}
+
+
+
+
+
+
+@media (max-width:1643px) {
+
+    .title-primary {
+        font-size: 22px;
+    }
+
+    .box-caption {
+        font-size: 15px;
+    }
+
+    .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+        position: relative;
+        top: 47%;
+    }
+
+    .carousel-control {
+        width: 15%;
+    }
+
+}
+
+
+
+@media (max-width:1366px) {
+
+
+
+    .text-parallax {
+        padding-top: 40px !important;
+        font-size: 40px;
+    }
+
+
+    .button-tentang{
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 80px;
+    }
+
+    .boxOut-karateLogo img {
+        width: 7%;
+    }
+
+    .boxOut-operasional {
+        padding-top: 20px;
+    }
+
+    .operasional {
+        height: 120px;
+    }
+
+    .operasional-HTM{
+        padding-top: 0px; 
+        padding-bottom: 15px; 
+        font-size: 14px;
+    }
+
+    .operasional-time{
+        font-size: 14px; 
+        padding-bottom: 15px; 
+        padding-top: 10px;
+    }
+
+    .operasional-price{
+        padding-top: 0px; 
+        font-size: 16px;
+    }
+
+    .operasional-time-bottom{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    .b-HTM{
+        font-weight: bold;
+    }
+
+    .b-person{
+        font-size: 12px;
+    }
+
+
+
+
+    .primary-text {
+        font-size: 14px;
+    }
+
+    .title-primary {
+        font-size: 20px;
+    }
+
+    .box-caption {
+        font-size: 14px;
+    }
+
+    .box-container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .boxOut-section {
+        height: 245px;
+    }
+
+    .boxOut-item{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+        font-size: 30px;
+    }
+
+    .footer-circleUp{
+        height: 80px;
+        width: 80px;
+        padding: 5px;
+    }
+
+    .scrollDownSlider-edit {
+        bottom: 100px;
+    }
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-karateLogo img {
+        width: 100px;
+    }
+
+    .boxOut-karateLogo{
+        padding-top: 30%;
+    }
+
+    .boxOut-titleContent {
+        font-size: 18px;
+    }
+
+
+    .scrollDownSlider-edit{
+        //display: none;
+        bottom: 90px;
+    }
+
+    .boxOut-operasional {
+        padding-top: 15px;
+    }
+
+    .operasional {
+        height: 110px;
+    }
+
+    .operasional-HTM{
+        padding-top: 0px; 
+        padding-bottom: 15px; 
+        font-size: 12px;
+    }
+
+    .operasional-time{
+        font-size: 12px; 
+        padding-bottom: 15px; 
+        padding-top: 5px;
+    }
+
+    .operasional-price{
+        padding-top: 0px; 
+        font-size: 16px;
+    }
+
+    .operasional-time-bottom{
+        padding-top: 13px;
+        font-size: 16px;
+    }
+
+    .b-HTM{
+        font-weight: bold;
+    }
+
+    .b-person{
+        font-size: 16px;
+    }
+
+
+
+
+    .boxOut-section{
+        height: 200px;
+    }
+
+    .box-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .primary-text {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .boxOut-item{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+        position: relative;
+        top: 47%;
+    }
+
+    .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+        margin-left: 100px;
+    }
+
+    .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+        margin-right: 100px;
+    }
+
+    .carousel-control {
+        width: 15%;
+    }
+
+    .partner-black{
+        max-width: 70px;
+        max-height: 55px;
+    }
+
+    .partner-color{
+        max-width: 70px;
+        max-height: 55px;
+    }
+
+    .ourFooter-logo{
+        width: 170px;
+    }
+
+    .carousel-control.right {
+        right: 5px;
+    }
+
+    .carousel-control.left {
+        left: 5px;
+    }
+
+    .text-video {
+        padding-right: 40px;
+    }
+
+    .boxFooter-right{
+        padding-left: 50px;
+    }
+
+    .footer-circleUp{
+        height: 70px;
+        width: 70px;
+        bottom: 30px !important;
+        right: 30px;
+    }
+
+    .boxFooter-right{
+        padding-top: 0px;
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+
+    .boxOut-karateLogo {
+        padding-top: 90px;
+    }
+
+    .boxOut-karateLogo img {
+        width: 70px;
+    }
+
+    .text-parallax {
+        padding-top: 20px;
+        font-size: 26px;
+    }
+
+    .button-tentang{
+        width: 180px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 50px;
+    }
+
+    .boxOut-titleContent {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .operasional {
+        height: 305px;
+        padding: 0px 50px 0px 50px;
+    }
+
+
+    .operasional-HTM{
+        padding-top: 0px; 
+        padding-bottom: 10px; 
+        font-size: 14px;
+    }
+
+    .operasional-time{
+        font-size: 14px; 
+        padding-bottom: 10px; 
+        padding-top: 15px;
+    }
+
+    .operasional-price{
+        padding-top: 0px; 
+        font-size: 16px;
+    }
+
+    .operasional-time-bottom{
+        padding-top: 0px;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .b-HTM{
+        font-weight: bold;
+    }
+
+    .b-person{
+        font-size: 12px;
+    }
+
+    .operasional-left{
+        border-right: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+        padding-bottom: 15px;
+    }
+
+    .operasional-right{
+        border-left: none;
+        border-top: 2px solid rgba(255, 255, 255, 0.6);
+        padding-top: 15px;
+    }
+
+    .boxOut-operasional {
+        padding-top: 20px;
+    }
+
+
+
+    .box-kolomSection{
+        //height: 210px;
+    }
+
+    .boxOut-section{
+        /*        max-width: 200px;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                position: absolute;*/
+    }
+
+    .primary-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-kolomSection {
+        padding: 20px;
+    }
+
+    .kolom-kiri{
+        padding-left: 30px;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .kolom-kanan{
+        padding-right: 30px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .primary-comment {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+
+    .boxOut-comment-padding{
+        padding-top: 25px;
+    }
+
+    .triangle-testi {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 12.5px 25px 12.5px;
+        border-color: transparent transparent #ffffff transparent;
+        position: inherit;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+    }
+
+    .boxOut-comment {
+        height: 185px;
+        padding: 20px;
+    }
+
+    .boxOut-item{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+        position: absolute;
+        top: 40%;
+    }
+
+    .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+        margin-left: 0px;
+    }
+
+    .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+        margin-right: 0px;
+    }
+
+    .carousel-control {
+        width: 15%;
+    }
+
+    .box-partner{
+        text-align: center;
+    }
+
+    .partner-black{
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+
+    .partner-color{
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+
+    .scrollDownSlider-edit{
+        display: none;
+    }
+
+    .carousel-control.right {
+        right: 0;
+    }
+
+    .carousel-control.left {
+        left: 0;
+    }
+
+    .carousel-control {
+        font-size: 30px;
+    }
+
+    .boxOut-video {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .textTitle-video{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .boxFooter-right{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+
+    .box-footerContainer {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .footer-circleUp{
+        height: 60px;
+        width: 60px;
+    }
+
+    .text-video{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 0px; 
+        font-size: 15px; 
+        text-align: justify;
+    }
+
+
+}

@@ -1,0 +1,507 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 2, 2015, 3:13:20 PM
+    Author     : Arif
+*/
+
+.carousel-background{
+    background-color: white;
+}
+
+/*.container-carousel{
+    width: 1085px;
+}*/
+
+.carousel-margin{
+    margin-top: 70px;
+}
+
+.edit-carousel{
+    height: 342px;
+}
+
+.edit-carousel > .item{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -webkit-box-shadow: inset 60px 0px 20px -20px rgba(255, 255, 255, 1), inset -60px 0px 20px -20px rgba(255, 255, 255, 1);
+    -moz-box-shadow: inset 60px 0px 20px -20px rgba(255, 255, 255, 1), inset -60px 0px 20px -20px rgba(255, 255, 255, 1);
+    box-shadow: inset 60px 0px 20px -20px rgba(255, 255, 255, 1), inset -60px 0px 20px -20px rgba(255, 255, 255, 1);
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0 !important;
+    -webkit-transition-property: opacity !important;
+    -moz-transition-property: opacity !important;
+    -o-transition-property: opacity !important;
+    transition-property: opacity !important;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1 !important;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0 !important;
+    opacity: 0 !important;
+    z-index: 1 !important;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1 !important;
+}
+.carousel-fade .carousel-control {
+    z-index: 2 !important;
+}
+
+
+
+
+
+
+
+.carousel-buttonLeft{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    opacity: 1;
+    padding-top: 15%;
+}
+
+.carousel-buttonRight{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    opacity: 1;
+    padding-top: 15%;
+}
+
+.carousel-left{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+    margin-left: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-right{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+    -ms-transform: rotate(-135deg); /* IE 9 */
+    -webkit-transform: rotate(-135deg); /* Safari */
+    transform: rotate(-135deg);
+    margin-left: -100px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.box-container{
+    padding-top: 30px;
+}
+
+.boxOut-news{
+    margin-bottom: 50px;
+}
+
+.boxOut-newsTitle{
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.boxOut-newsTitle-white{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: black;
+    padding-top: 45px;
+    margin-bottom: 25px;
+}
+
+.boxOut-newsContent{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.box-newsTitle{
+    font-size: 16px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.box-newsTitle a{
+    color: black;
+}
+
+.box-newsTitle a:hover{
+    color: #d10b11;
+}
+
+.button-lengkap{
+    width: 180px;
+    height: 50px;
+    margin: 0px;
+    background-color: #d10b11;
+    color: white !important;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    float: none;
+    position: relative;
+
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    transition: all 0.25s linear 0s;
+
+}
+
+.button-lengkap:hover, .button-lengkap:focus{
+    background-color: #ad080d !important;
+    transition: all 0.25s linear 0s;
+}
+
+.boxOut-kategoriBerita{
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+
+
+
+#owl-demo .item{
+    /*    background: #42bdc2;
+        padding: 30px 0px;
+        margin: 5px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;*/
+}
+
+.boxOut-owlCarousel{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.owl-prev{
+    height: 60px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    margin-left: -55px;
+    margin-top: 75px;
+}
+
+.owl-next{
+    height: 60px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -45px;
+    margin-top: 75px;
+}
+
+.owl-prev img{
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 100%;
+}
+
+.owl-next img{
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 100%;
+}
+
+.boxOut-kategoriSquare{
+    width: 200px;
+    float: none;
+}
+
+.box-kategoriSquare{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.boxOut-ketegoriImg{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 180px;
+    width: 180px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    float: none;
+    box-shadow: 0px 0px 5px black;
+    transition: all 0.3s linear 0s;
+}
+
+.boxOut-ketegoriImg img{
+    height: 100%;
+}
+
+.boxOut-kategoriGrey{
+    background-color: rgba(51, 51, 51, 0.7);
+    height: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.boxOut-kategoriSquare > a:hover .boxOut-kategoriGrey{
+    background-color: rgba(51, 51, 51, 0.4);
+}
+
+.boxOut-kategoriSquare > a:hover .boxOut-ketegoriImg{
+    cursor:pointer;
+    transition:0.5s;
+    transform: scale(1.1);
+    transition: all 0.3s linear 0s;
+}
+
+.boxOut-postTime{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.boxOut-member{
+    background-image: url('../../img/icon/background-belt.jpg');
+}
+
+.boxOut-branch{
+    background-image: url('../../img/icon/dojo.jpg');
+}
+
+.box-member{
+    background-color: rgba(51, 51, 51, 0.4);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.border-member{
+    border-top: 2px solid white;
+    width: 200px;
+    float: none;
+}
+
+.boxOut-memberIsi{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.boxOut-memberText{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button-member{
+    width: 200px;
+    height: 50px;
+    margin: 0px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 0px;
+    text-align: center;
+    float: none;
+    border: 2px solid white;
+    position: relative;
+
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    transition: all 0.25s linear 0s;
+
+}
+
+.button-member:hover, .button-member:focus{
+    border: 2px solid #f7c600;
+    color: #f7c600;
+    transition: all 0.25s linear 0s;
+}
+
+
+@media (max-width:1366px) {
+
+    .boxOut-owlCarousel{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .edit-carousel{
+        height: 337px;
+    }
+
+    .bxSlide2-edit{
+        width: 230px !important;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .edit-carousel{
+        height: 260px;
+    }
+
+    .boxOut-news{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .bxSlide2-edit{
+        width: 300px !important;
+    }
+
+    .boxOut-kategoriSquare{
+        width: 180px;
+    }
+
+    .boxOut-ketegoriImg{
+        height: 150px;
+        width: 150px;
+    }
+
+    .boxOut-kategoriGrey{
+        font-size: 20px;
+    }
+
+    .navbar-offcanvas{
+        height: 0px !important;
+    }
+
+    .owl-prev {
+        margin-top: 60px;
+    }
+
+    .owl-next {
+        margin-top: 60px;
+    }
+
+    .navbar-offcanvas{
+        height: 0px !important;
+    }
+
+
+}
+
+@media (max-width:767px) {
+
+    .carousel-margin{
+        margin-top: 106px;
+    }
+
+    .edit-carousel > .item{
+        background-size:  auto 100%;
+        background-position: center center !important;
+    }
+
+    /*    .edit-carousel {
+            height: 260px;
+        }*/
+
+    .box-newsTitle {
+        font-size: 14px;
+    }
+
+    .box-newsTitle {
+        max-height: 45px;
+    }
+
+    .boxOut-owlCarousel {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .navbar-offcanvas{
+        height: 100% !important;
+    }
+
+    .edit-carousel {
+        height: 150px;
+    }
+
+    .boxOut-newsContent {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .button-lengkap {
+        margin-top: 50px;
+    }
+
+    .boxOut-memberIsi {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-member {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .header-logo {
+        height: 40px;
+    }
+
+    .boxOut-newsTitle {
+        font-size: 18px;
+    }
+
+    .button-lengkap {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .boxOut-memberIsi {
+        font-size: 26px;
+    }
+
+    .button-member {
+        width: 160px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+}

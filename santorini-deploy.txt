@@ -1,0 +1,62 @@
+Arif@ARIF-ROG MINGW64 /c/xampp/htdocs/santorini (master)
+$ heroku git:remote -a santorini-swimming
+set git remote heroku to https://git.heroku.com/santorini-swimming.git
+
+Arif@ARIF-ROG MINGW64 /c/xampp/htdocs/santorini (master)
+$ git add .
+
+Arif@ARIF-ROG MINGW64 /c/xampp/htdocs/santorini (master)
+$ git commit -am "my first deploy"
+On branch master
+nothing to commit, working directory clean
+
+Arif@ARIF-ROG MINGW64 /c/xampp/htdocs/santorini (master)
+$ git push heroku master
+Counting objects: 888, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (871/871), done.
+Writing objects: 100% (888/888), 147.95 MiB | 192.00 KiB/s, done.
+Total 888 (delta 315), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Building on the Heroku-20 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> PHP app detected
+remote:
+remote:        NOTICE: Your 'composer.json' is completely empty!
+remote:
+remote:        A completely empty file is not a valid JSON document.
+remote:
+remote:        Heroku automatically corrected this problem, but it is strongly
+remote:        recommended you change the contents to at least '{}'.
+remote:
+remote:        For documentation on Composer and dependency management, check
+remote:        out the introduction at https://getcomposer.org/doc/00-intro.md
+remote:
+remote: -----> Bootstrapping...
+remote: -----> Installing platform packages...
+remote:        NOTICE: No runtime required in composer.lock; using PHP ^7.3.0 | ^8.0.0
+remote:        - php (8.0.8)
+remote:        - composer (1.10.22)
+remote:        - apache (2.4.48)
+remote:        - nginx (1.20.1)
+remote: -----> Installing dependencies...
+remote:        Composer version 1.10.22 2021-04-27 13:10:45
+remote: -----> Preparing runtime environment...
+remote: -----> Checking for additional extensions to install...
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 100.4M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://santorini-swimming.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/santorini-swimming.git
+ * [new branch]      master -> master
+
+Arif@ARIF-ROG MINGW64 /c/xampp/htdocs/santorini (master)
+$ heroku open
