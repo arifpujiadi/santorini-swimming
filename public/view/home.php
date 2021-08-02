@@ -22,9 +22,10 @@
             <div id="myCarousel" class="carousel slide carousel-fade carousel-edit">
                 <div class="carousel-inner">
                     <div id="parallax" class="parallax-item item active" style="background-image: url('../img/wallpaper/paralax-5.jpg');"></div>
-                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-4.jpg');"></div>
+                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-7.jpg');"></div>
                     <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-1.jpg');"></div>
                     <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-6.jpg');"></div>
+                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-4.jpg');"></div>
                 </div> 
             </div>
             <div class="operasional">
