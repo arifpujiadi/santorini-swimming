@@ -235,7 +235,7 @@
                                         <div class="carousel-inner">
                                             <div class="col-md-12 col-sm-12 col-xs-12 boxOut-item item active">
                                                 <div class="col-md-4 col-sm-4 col-xs-12">
-                                                    <div class="boxOut-picture center-block" style="background-image: url('../img/profil/pp1.JPG');"></div>
+                                                    <div class="boxOut-picture center-block" style="background-image: url('../img/profil/pp-1.png');"></div>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8 col-xs-12 boxOut-comment-padding">
                                                     <div class="triangle-testi"></div>
@@ -251,7 +251,7 @@
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 boxOut-item item">
                                                 <div class="col-md-4 col-sm-4 col-xs-12">
-                                                    <div class="boxOut-picture center-block" style="background-image: url('../img/profil/pp1.JPG');"></div>
+                                                    <div class="boxOut-picture center-block" style="background-image: url('../img/profil/pp-2.png');"></div>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8 col-xs-12 boxOut-comment-padding">
                                                     <div class="triangle-testi"></div>
@@ -267,7 +267,7 @@
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 boxOut-item item">
                                                 <div class="col-md-4 col-sm-4 col-xs-12">
-                                                    <div class="boxOut-picture center-block" style="background-image: url('../img/profil/pp1.JPG');"></div>
+                                                    <div class="boxOut-picture center-block" style="background-image: url('../img/profil/pp-1.png');"></div>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8 col-xs-12 boxOut-comment-padding">
                                                     <div class="triangle-testi"></div>
@@ -341,7 +341,7 @@
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <img class="center-block ourFooter-logo" src="../img/wallpaper/Logo4.png">
+                                    <img class="center-block ourFooter-logo" src="../img/icon/logo-diamond.png">
                                 </div>
                             </div>
                             <div class="row">
