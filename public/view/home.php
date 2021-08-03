@@ -21,11 +21,11 @@
         <div class="parallax">
             <div id="myCarousel" class="carousel slide carousel-fade carousel-edit">
                 <div class="carousel-inner">
-                    <div id="parallax" class="parallax-item item active" style="background-image: url('../img/wallpaper/paralax-5.jpg');"></div>
-                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-7.jpg');"></div>
-                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-1.jpg');"></div>
-                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-6.jpg');"></div>
-                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/wallpaper/paralax-4.jpg');"></div>
+                    <div id="parallax" class="parallax-item item active" style="background-image: url('../img/slider/paralax-1.png');"></div>
+                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/slider/paralax-2.png');"></div>
+                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/slider/paralax-3.png');"></div>
+                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/slider/paralax-4.png');"></div>
+                    <div id="parallax" class="parallax-item item" style="background-image: url('../img/slider/paralax-5.png');"></div>
                 </div> 
             </div>
             <div class="operasional">
@@ -109,7 +109,7 @@
                                 <div class="col-md-12 col-sm-12 col-xs-12 box-kolomSection center">
                                     <div class="col-md-12 col-sm-12 col-xs-12 boxOut-section">
                                         <a href="#">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/wallpaper/paralax-5.jpg');">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/galleryCategory/category-1.png');">
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 box-section center">
                                                 <div class="col-md-12 col-sm-12 col-xs-12 box-caption">
@@ -124,7 +124,7 @@
                                 <div class="col-md-12 col-sm-12 col-xs-12 box-kolomSection">
                                     <div class="col-md-12 col-sm-12 col-xs-12 boxOut-section">
                                         <a href="#">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/wallpaper/paralax-6.JPG');">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/galleryCategory/category-5.png');">
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 box-section center">
                                                 <div class="col-md-12 col-sm-12 col-xs-12 box-caption">
@@ -139,7 +139,7 @@
                                 <div class="col-md-12 col-sm-12 col-xs-12 box-kolomSection">
                                     <div class="col-md-12 col-sm-12 col-xs-12 boxOut-section">
                                         <a href="#">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/wallpaper/paralax-1.jpg');">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/galleryCategory/category-4.png');">
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 box-section center">
                                                 <div class="col-md-12 col-sm-12 col-xs-12 box-caption">
@@ -154,11 +154,11 @@
                                 <div class="col-md-12 col-sm-12 col-xs-12 box-kolomSection">
                                     <div class="col-md-12 col-sm-12 col-xs-12 boxOut-section">
                                         <a href="#">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/wallpaper/paralax-4.jpg');">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/galleryCategory/category-2.png');">
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 box-section center">
                                                 <div class="col-md-12 col-sm-12 col-xs-12 box-caption">
-                                                    Joglo
+                                                    Food Court
                                                 </div>
                                             </div>
                                         </a>
@@ -169,11 +169,11 @@
                                 <div class="col-md-12 col-sm-12 col-xs-12 box-kolomSection">
                                     <div class="col-md-12 col-sm-12 col-xs-12 boxOut-section">
                                         <a href="#">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/wallpaper/paralax-2.JPG');">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/galleryCategory/category-3.png');">
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 box-section center">
                                                 <div class="col-md-12 col-sm-12 col-xs-12 box-caption">
-                                                    Jembatan Kayu
+                                                    Joglo
                                                 </div>
                                             </div>
                                         </a>
@@ -184,7 +184,7 @@
                                 <div class="col-md-12 col-sm-12 col-xs-12 box-kolomSection">
                                     <div class="col-md-12 col-sm-12 col-xs-12 boxOut-section">
                                         <a href="#">
-                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/wallpaper/paralax-3.jpg');">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 boxOut-scale" style="background-image: url('../img/galleryCategory/category-6.png');">
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 box-section center">
                                                 <div class="col-md-12 col-sm-12 col-xs-12 box-caption">
