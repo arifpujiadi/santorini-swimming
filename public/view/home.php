@@ -158,7 +158,7 @@
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12 box-section center">
                                                 <div class="col-md-12 col-sm-12 col-xs-12 box-caption">
-                                                    Food Court
+                                                    Foodcourt
                                                 </div>
                                             </div>
                                         </a>
